@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>I14k's</title>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <main>
+        <p id="text"></p>
+        <img src="imgs/i14kspicture.jpg" id="img">
+    <button type="button" onclick="func()">Show <span>text!</span></button>
+    <button type="button" onclick="func2()">Color it to show my feelings&#41</button>
+    <button type="button" onclick="func3()">Change picture!</button>
+        <script>
+            function func(){
+                document.getElementById("text").innerHTML="You are beautiful<3";   
+            }
+            function func2(){
+                document.getElementById("text").style.color="red";
+                document.getElementById("text").style.backgroundColor="pink";
+            }
+            function func3(){
+                document.getElementById("img").src="imgs/giphy.webp";
+            }
+        </script>
+</main>
+</body>
+</html>

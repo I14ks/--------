@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.try{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height:100vh;
+}
+.try>div{
+    text-align: center;
+}
+#va{
+    color: red;
+}
+iframe{
+    
+}
